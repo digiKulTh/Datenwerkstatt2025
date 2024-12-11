@@ -10,4 +10,4 @@ Die Veröffentlichung erfolgt hier via JS-Library [https://modelviewer.dev/](htt
 - Kompression des .glb z. B. mit [https://githubdragonfly.github.io/viewers/templates/GM%20Viewer.html](https://githubdragonfly.github.io/viewers/templates/GM%20Viewer.html)
 - Integration des Tests/Beispiels mit Doku im html-Template showcase.html, dafür werden die Dateien mit den Endungen .glb (das 3D-Modell) und .webp (für die Voransicht) benötigt
 - Angabe der Ersteller:innen nicht vergessen
-- Aufrufen des Showcase unter [https://digikulth.github.io/Datenwerkstatt2025/showcase.html](https://digikulth.github.io/Datenwerkstatt2025/showcase.html)https://digikulth.github.io/Datenwerkstatt2025/showcase.html (die Modelle brauchen etwas Ladezeit)
+- Aufrufen des Showcase unter [https://digikulth.github.io/Datenwerkstatt2025/showcase.html](https://digikulth.github.io/Datenwerkstatt2025/showcase.html) (die Modelle brauchen etwas Ladezeit)
