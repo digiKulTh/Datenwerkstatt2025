@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>3D Model Showcase</title>
+    <meta charset="utf-8">
+    <meta name="description" content="3D Model Showcase with model-viewer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="showcase.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="text-column">
+          <h2>Osterloh, Kopf, unlackiert, Papiermache</h2>
+          <p>Fotosatz, Tageslicht einseitig, in PhotoCatch (Model Quality: high, Sample Ordering: sequential, Feature Sensitivity: High, Object Masking enabled) erstellt, ohne Kompression, Textur 4096x4096 fast 20 MB. Ersteller: Michael Markert (ThULB)</p>
+        </div>
+        <div class="model-column">
+          <model-viewer src="models/demo_head.glb" ar ar-modes="webxr scene-viewer quick-look" poster="models/demo_head.webp" camera-controls tone-mapping="neutral" shadow-intensity="1.06" shadow-softness="0.55" environment-image="legacy" exposure="0.58" auto-rotate>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+          </model-viewer>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="text-column">
+          <h2>Osterloh, Kopf, unlackiert, Papiermache</h2>
+          <p>Wie oben, aber Draco-komprimiert, daher unter 2 MB. Ersteller: Michael Markert (ThULB)</p>
+        </div>
+        <div class="model-column">
+          <model-viewer src="models/demo_head_DRACO.glb" ar ar-modes="webxr scene-viewer quick-look" poster="models/demo_head.webp" camera-controls tone-mapping="neutral" shadow-intensity="1.06" shadow-softness="0.55" environment-image="legacy" exposure="0.58" auto-rotate>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+          </model-viewer>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="text-column">
+          <h2>3D Model 3</h2>
+          <p>Hier könnte Ihr Modell sein.</p>
+        </div>
+        <div class="model-column">
+          <model-viewer src="models/Fungus_on_Fagus.glb" ar ar-modes="webxr scene-viewer quick-look" poster="models/Fungus_on_Fagus_poster.webp" camera-controls tone-mapping="neutral" shadow-intensity="1.06" shadow-softness="0.55" environment-image="legacy" exposure="0.58" auto-rotate>
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
+            </div>
+          </model-viewer>
+        </div>
+      </div>
+      
+    </div>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </body>
+</html>
